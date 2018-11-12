@@ -1,0 +1,16 @@
+{
+    "cityNameBox": "//*[@id='q']",
+    "searchButton": "//*[@id='searchform']/button",
+    "currentLocation": "//*[@id='searchform']/span/button",
+    "supportinCity": "/html/body/div[1]/div/div/div[1]/a[1]/i",
+    "weatherinCity": "//*[@id='nav-search']",
+    "signIn": "/html/body/div[1]/div/div/div[1]/a[3]", 
+    "signUp": "/html/body/div[1]/div/div/div[1]/a[2]",
+    "celcius": "//*[@id='metric']",
+    "farenheit": "//*[@id='imperial']",
+    "notfound": "//*[@id='forecast_list_ul']/div/a",
+    "cityNameBox1":"//*[@id='search_str']",
+    "mumbaicityname": "//*[@id='forecast_list_ul']/table/tbody/tr/td[2]/b[1]/a",
+    "mumbaicityname1":"//*[@id='widget']/div/div/div[3]/div[2]/span/span/div[1]/h2"
+}
+
