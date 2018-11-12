@@ -3,25 +3,12 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve --port=3000 --open",
-    "build": "ng build --prod",
-    "test1": "npm run integration-tests && npm run test",
-    "test": "ng test --single-run --browsers ChromeHeadless --code-coverage",
-    "lint": "tslint ./app/**/*.ts -t verbose",
-    "tsc": "tsc",
-    "integration-tests": "tsc src/app/config/app-config.ts && tsc src/app/config/app-path.ts && mocha integration-tests/integration-test-UI-MidLayer.js --timeout 12000 --reporter mocha-junit-reporter --reporter-options mochaFile=_test-output/TEST-Integration-Midlayer.xml",
     "teste2e": "protractor e2e/conf.js",
-    "pretest": "npm run update-webdriver",
     "update-webdriver": "webdriver-manager clean && webdriver-manager update",
     "preupdate-webdriver": "npm install"
   },
   "private": true,
   "dependencies": {
-    "chakram": "1.5.0",
-    "json-schema-faker": "0.4.6",
-    "mocha": "4.0.1",
-    "mocha-junit-reporter": "1.15.0"
   },
   "devDependencies": {
     "jasmine-core": "2.8.0",
