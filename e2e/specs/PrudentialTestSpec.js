@@ -46,7 +46,6 @@ describe('UI Testcases', function () {
         element(by.xpath(locators.searchButton)).click();
         browser.sleep(settings.SmallSleep);
         expect(element(by.xpath(locators.notfound)).isPresent()).toBe(true);
-        //expect(element(by.xpath(locators.notfound)).getText()).toContain("x");
     });
 
     it('should verify Valid City Name results', () => {
