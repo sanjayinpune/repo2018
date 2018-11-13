@@ -1,0 +1,8 @@
+{
+  "baseurl": "https://openweathermap.org/",
+  "apiurl" : "https://api.openweathermap.org/data/2.5/weather?q=London",
+  "apikey" : "e4878dc4f2523e0193753c7fe8c05c23",
+  "SmallSleep": 5000,
+  "MediumSleep": 10000,
+  "LargeSleep": 60000
+}

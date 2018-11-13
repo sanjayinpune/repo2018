@@ -1,0 +1,18 @@
+{
+  "name": "prudentialtest",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "teste2e": "protractor e2e/conf.js",
+    "teste2eheadless": "protractor e2e/confheadless.js",
+    "update-webdriver": "webdriver-manager clean && webdriver-manager update",
+    "preupdate-webdriver": "npm install"
+  },
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine-core": "2.8.0",
+    "jasmine-spec-reporter": "4.1.1",
+    "protractor": "^5.4.1"
+  }
+}
